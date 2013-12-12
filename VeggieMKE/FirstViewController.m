@@ -7,6 +7,8 @@
 //
 
 #import "FirstViewController.h"
+#import "LoginViewController.h"
+#import <Parse/Parse.h>
 
 @interface FirstViewController ()
 
@@ -17,7 +19,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    //check the parse login
+    // if the user is not authenticated, present login controller.
+    if (!([PFUser currentUser] && [PFFacebookUtils isLinkedWithUser:[PFUser currentUser]])) {
+        LoginViewController *loginVC = (LoginViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
+        [self presentViewController:loginVC animated:YES completion:^{
+            // left empty
+        }];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning

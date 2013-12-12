@@ -2,6 +2,7 @@
 //  Copyright (c) 2013 Parse. All rights reserved.
 
 #import "LoginViewController.h"
+#import "FirstViewController.h"
 #import "UserDetailsViewController.h"
 #import <Parse/Parse.h>
 
@@ -44,10 +45,18 @@
             }
         } else if (user.isNew) {
             NSLog(@"User with facebook signed up and logged in!");
-            [self.navigationController pushViewController:[[UserDetailsViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
+            //[self.navigationController pushViewController:[[UserDetailsViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
+            //[self.navigationController pushViewController:[[FirstViewController alloc] init] animated:YES];
+            
+            // User is logged in, so dismiss this view
+            [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
         } else {
             NSLog(@"User with facebook logged in!");
-            [self.navigationController pushViewController:[[UserDetailsViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
+            //[self.navigationController pushViewController:[[UserDetailsViewController alloc] initWithStyle:UITableViewStyleGrouped] animated:YES];
+            //[self.navigationController pushViewController:[[FirstViewController alloc] init] animated:YES];
+            
+            // User is logged in, so dismiss this view
+            [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
         }
     }];
     

@@ -33,10 +33,10 @@
     // ****************************************************************************
     [PFFacebookUtils initializeFacebook];
     
-    // Override point for customization after application launch.
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LoginViewController alloc] init]];
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+//    // Override point for customization after application launch.
+//    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LoginViewController alloc] init]];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
     return YES;
     
     return YES;
@@ -44,6 +44,7 @@
 
 // ****************************************************************************
 // App switching methods to support Facebook Single Sign-On.
+//  Now that all of the keys are in place, we need to add a method to the app delegate to support the Single-Sign On feature of the Facebook SDK.
 // ****************************************************************************
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     return [PFFacebookUtils handleOpenURL:url];
