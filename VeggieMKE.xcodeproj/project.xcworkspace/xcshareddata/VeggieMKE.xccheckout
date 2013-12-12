@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6FBB87BE-C7D2-4957-A30A-9DBF5EE894C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VeggieMKE</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3F70E3D3-C1F8-4589-96B3-49DA51EFF5AD</key>
+		<string>https://github.com/AmandaJo/VeggieMKE.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VeggieMKE.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3F70E3D3-C1F8-4589-96B3-49DA51EFF5AD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AmandaJo/VeggieMKE.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3F70E3D3-C1F8-4589-96B3-49DA51EFF5AD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3F70E3D3-C1F8-4589-96B3-49DA51EFF5AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VeggieMKE</string>
+		</dict>
+	</array>
+</dict>
+</plist>
