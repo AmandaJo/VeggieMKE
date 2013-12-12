@@ -18,6 +18,18 @@
 		9745850A185A47860037213A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97458509185A47860037213A /* Security.framework */; };
 		9745850C185A47940037213A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9745850B185A47940037213A /* StoreKit.framework */; };
 		9745850E185A479E0037213A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9745850D185A479E0037213A /* SystemConfiguration.framework */; };
+		97458511185A576A0037213A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97458510185A576A0037213A /* LoginViewController.m */; };
+		97458517185A57990037213A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97458512185A57990037213A /* LoginViewController.xib */; };
+		97458518185A57990037213A /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97458514185A57990037213A /* UserDetailsViewController.m */; };
+		97458519185A57990037213A /* UserDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97458515185A57990037213A /* UserDetailsViewController.xib */; };
+		9745851A185A57990037213A /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97458516185A57990037213A /* TableHeaderView.xib */; };
+		9745851E185A59390037213A /* login-button-small-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9745851D185A59390037213A /* login-button-small-pressed.png */; };
+		97458520185A59400037213A /* login-button-small-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9745851F185A59400037213A /* login-button-small-pressed@2x.png */; };
+		97458522185A59490037213A /* login-button-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 97458521185A59490037213A /* login-button-small.png */; };
+		97458524185A59590037213A /* login-button-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97458523185A59590037213A /* login-button-small@2x.png */; };
+		97458526185A59630037213A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97458525185A59630037213A /* Default-568h@2x.png */; };
+		97458528185A596C0037213A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 97458527185A596C0037213A /* Default.png */; };
+		9745852A185A59720037213A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97458529185A59720037213A /* Default@2x.png */; };
 		97E0FB301859145800FCA336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E0FB2F1859145800FCA336 /* Foundation.framework */; };
 		97E0FB321859145800FCA336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E0FB311859145800FCA336 /* CoreGraphics.framework */; };
 		97E0FB341859145800FCA336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E0FB331859145800FCA336 /* UIKit.framework */; };
@@ -57,6 +69,20 @@
 		97458509185A47860037213A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9745850B185A47940037213A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		9745850D185A479E0037213A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9745850F185A57280037213A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		97458510185A576A0037213A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		97458512185A57990037213A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		97458513185A57990037213A /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
+		97458514185A57990037213A /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
+		97458515185A57990037213A /* UserDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailsViewController.xib; sourceTree = "<group>"; };
+		97458516185A57990037213A /* TableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
+		9745851D185A59390037213A /* login-button-small-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small-pressed.png"; sourceTree = "<group>"; };
+		9745851F185A59400037213A /* login-button-small-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small-pressed@2x.png"; sourceTree = "<group>"; };
+		97458521185A59490037213A /* login-button-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small.png"; sourceTree = "<group>"; };
+		97458523185A59590037213A /* login-button-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-button-small@2x.png"; sourceTree = "<group>"; };
+		97458525185A59630037213A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		97458527185A596C0037213A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		97458529185A59720037213A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		97E0FB2C1859145800FCA336 /* VeggieMKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeggieMKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E0FB2F1859145800FCA336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		97E0FB311859145800FCA336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +141,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9745851B185A57CA0037213A /* FromFacebookIntegrationProject */ = {
+			isa = PBXGroup;
+			children = (
+				97458514185A57990037213A /* UserDetailsViewController.m */,
+				97458515185A57990037213A /* UserDetailsViewController.xib */,
+				97458516185A57990037213A /* TableHeaderView.xib */,
+				97458510185A576A0037213A /* LoginViewController.m */,
+				9745850F185A57280037213A /* LoginViewController.h */,
+				97458513185A57990037213A /* UserDetailsViewController.h */,
+				97458512185A57990037213A /* LoginViewController.xib */,
+			);
+			name = FromFacebookIntegrationProject;
+			sourceTree = "<group>";
+		};
+		9745851C185A58020037213A /* FromFacebookIntegrationProject */ = {
+			isa = PBXGroup;
+			children = (
+				97458529185A59720037213A /* Default@2x.png */,
+				97458527185A596C0037213A /* Default.png */,
+				97458525185A59630037213A /* Default-568h@2x.png */,
+				97458523185A59590037213A /* login-button-small@2x.png */,
+				97458521185A59490037213A /* login-button-small.png */,
+				9745851F185A59400037213A /* login-button-small-pressed@2x.png */,
+				9745851D185A59390037213A /* login-button-small-pressed.png */,
+			);
+			name = FromFacebookIntegrationProject;
+			sourceTree = "<group>";
+		};
 		97E0FB231859145700FCA336 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +213,7 @@
 		97E0FB351859145800FCA336 /* VeggieMKE */ = {
 			isa = PBXGroup;
 			children = (
+				9745851B185A57CA0037213A /* FromFacebookIntegrationProject */,
 				97E0FB3E1859145800FCA336 /* AppDelegate.h */,
 				97E0FB3F1859145800FCA336 /* AppDelegate.m */,
 				97E0FB411859145800FCA336 /* Main.storyboard */,
@@ -175,6 +230,7 @@
 		97E0FB361859145800FCA336 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9745851C185A58020037213A /* FromFacebookIntegrationProject */,
 				97E0FB371859145800FCA336 /* VeggieMKE-Info.plist */,
 				97E0FB381859145800FCA336 /* InfoPlist.strings */,
 				97E0FB3B1859145800FCA336 /* main.m */,
@@ -280,8 +336,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9745851E185A59390037213A /* login-button-small-pressed.png in Resources */,
+				97458526185A59630037213A /* Default-568h@2x.png in Resources */,
+				97458519185A57990037213A /* UserDetailsViewController.xib in Resources */,
+				97458517185A57990037213A /* LoginViewController.xib in Resources */,
+				9745852A185A59720037213A /* Default@2x.png in Resources */,
+				97458520185A59400037213A /* login-button-small-pressed@2x.png in Resources */,
+				97458522185A59490037213A /* login-button-small.png in Resources */,
 				97E0FB4B1859145800FCA336 /* Images.xcassets in Resources */,
+				97458528185A596C0037213A /* Default.png in Resources */,
+				97458524185A59590037213A /* login-button-small@2x.png in Resources */,
 				97E0FB3A1859145800FCA336 /* InfoPlist.strings in Resources */,
+				9745851A185A57990037213A /* TableHeaderView.xib in Resources */,
 				97E0FB431859145800FCA336 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +371,8 @@
 				97E0FB401859145800FCA336 /* AppDelegate.m in Sources */,
 				97E0FB461859145800FCA336 /* FirstViewController.m in Sources */,
 				97E0FB3C1859145800FCA336 /* main.m in Sources */,
+				97458518185A57990037213A /* UserDetailsViewController.m in Sources */,
+				97458511185A576A0037213A /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
