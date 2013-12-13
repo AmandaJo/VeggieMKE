@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RFQuiltLayout.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <RFQuiltLayoutDelegate>
 
-// UINavigationBar button touch handler
-- (void)logoutButtonTouchHandler:(id)sender;
+@property (nonatomic, strong) NSMutableData *imageData;
+//@property (weak, nonatomic) IBOutlet UIImageView *profilePictureView;
 
 @end

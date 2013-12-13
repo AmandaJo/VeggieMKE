@@ -10,4 +10,6 @@
 
 @interface SecondViewController : UIViewController
 
+- (IBAction)pressedLogoutButton:(id)sender;
+
 @end

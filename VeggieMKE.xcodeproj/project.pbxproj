@@ -30,6 +30,7 @@
 		97458526185A59630037213A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97458525185A59630037213A /* Default-568h@2x.png */; };
 		97458528185A596C0037213A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 97458527185A596C0037213A /* Default.png */; };
 		9745852A185A59720037213A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97458529185A59720037213A /* Default@2x.png */; };
+		97D20BDC185BB1B000C9DC3F /* RFQuiltLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D20BDB185BB1B000C9DC3F /* RFQuiltLayout.m */; };
 		97E0FB301859145800FCA336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E0FB2F1859145800FCA336 /* Foundation.framework */; };
 		97E0FB321859145800FCA336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E0FB311859145800FCA336 /* CoreGraphics.framework */; };
 		97E0FB341859145800FCA336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E0FB331859145800FCA336 /* UIKit.framework */; };
@@ -83,6 +84,8 @@
 		97458525185A59630037213A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		97458527185A596C0037213A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		97458529185A59720037213A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		97D20BDA185BB1A500C9DC3F /* RFQuiltLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFQuiltLayout.h; sourceTree = "<group>"; };
+		97D20BDB185BB1B000C9DC3F /* RFQuiltLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFQuiltLayout.m; sourceTree = "<group>"; };
 		97E0FB2C1859145800FCA336 /* VeggieMKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeggieMKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E0FB2F1859145800FCA336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		97E0FB311859145800FCA336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -169,6 +172,15 @@
 			name = FromFacebookIntegrationProject;
 			sourceTree = "<group>";
 		};
+		97D20BDD185BB1B500C9DC3F /* RFQuiltLayout */ = {
+			isa = PBXGroup;
+			children = (
+				97D20BDB185BB1B000C9DC3F /* RFQuiltLayout.m */,
+				97D20BDA185BB1A500C9DC3F /* RFQuiltLayout.h */,
+			);
+			name = RFQuiltLayout;
+			sourceTree = "<group>";
+		};
 		97E0FB231859145700FCA336 = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +225,7 @@
 		97E0FB351859145800FCA336 /* VeggieMKE */ = {
 			isa = PBXGroup;
 			children = (
+				97D20BDD185BB1B500C9DC3F /* RFQuiltLayout */,
 				9745851B185A57CA0037213A /* FromFacebookIntegrationProject */,
 				97E0FB3E1859145800FCA336 /* AppDelegate.h */,
 				97E0FB3F1859145800FCA336 /* AppDelegate.m */,
@@ -368,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97E0FB491859145800FCA336 /* SecondViewController.m in Sources */,
+				97D20BDC185BB1B000C9DC3F /* RFQuiltLayout.m in Sources */,
 				97E0FB401859145800FCA336 /* AppDelegate.m in Sources */,
 				97E0FB461859145800FCA336 /* FirstViewController.m in Sources */,
 				97E0FB3C1859145800FCA336 /* main.m in Sources */,

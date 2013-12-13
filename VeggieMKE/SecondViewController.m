@@ -7,6 +7,8 @@
 //
 
 #import "SecondViewController.h"
+#import "LoginViewController.h"
+#import <Parse/Parse.h>
 
 @interface SecondViewController ()
 
@@ -24,6 +26,24 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - helper methods
+
+- (IBAction)pressedLogoutButton:(id)sender {
+    // Logout user, this automatically clears the cache
+    [PFUser logOut];
+    
+    [self showLoginViewController];
+}
+
+- (void)showLoginViewController
+{
+    // Return to login view controller
+    LoginViewController *loginVC = (LoginViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
+    [self presentViewController:loginVC animated:YES completion:^{
+        // left empty
+    }];
 }
 
 @end

@@ -15,8 +15,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    
     // Parse setup
     [Parse setApplicationId:@"3B2dsGosj77RkySoNO0m46lrp1hDalryYFPoVquT"
                   clientKey:@"MWI5csQ29lBok8T6RdK8Eb4aWSyAIDLy5NxnQ63q"];
@@ -24,20 +22,11 @@
     // Track basic statistics around application opens
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
-//    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
-//    [testObject setObject:@"bar" forKey:@"foo"];
-//    [testObject saveInBackground];
+    //    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    //    [testObject setObject:@"bar" forKey:@"foo"];
+    //    [testObject saveInBackground];
     
-    // ****************************************************************************
-    // Your Facebook application id is configured in Info.plist.
-    // ****************************************************************************
     [PFFacebookUtils initializeFacebook];
-    
-//    // Override point for customization after application launch.
-//    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LoginViewController alloc] init]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    [self.window makeKeyAndVisible];
-    return YES;
     
     return YES;
 }
