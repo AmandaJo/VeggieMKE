@@ -10,4 +10,7 @@
 
 @interface FirstViewController : UIViewController
 
+// UINavigationBar button touch handler
+- (void)logoutButtonTouchHandler:(id)sender;
+
 @end
